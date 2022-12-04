@@ -50,6 +50,11 @@ section i:nth-child(5n+5) {
 	animation: animate 6.3s linear infinite, animateBg 5s linear infinite;
 	animation-delay: calc(-3s*var(--i));
 }
+section i:hover {
+	background-color: #ffefef;
+	animation: calc(0.1s*var(--i));
+	transition: ease-in;
+}
 
 @keyframes animate {
 	0%,20% {
